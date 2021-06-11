@@ -68,7 +68,6 @@ input[type="button"]:hover{
 .nav1{
     float: right;
     margin-right: 20px;
-
 }
 
 .nav1 ul {
@@ -87,7 +86,7 @@ input[type="button"]:hover{
      font-size: 15px;
     
 }
-.nav1 ul li a button{
+.nav1 ul li button{
     background: blue;
     color: white;
     margin: 7px;
