@@ -5,20 +5,22 @@ body{
 }
 .main{
     position: absolute;
-    top: 40%;
+  /*  top: 40%;*/
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .google{
     position:relative;
     width: 360px;
-    top: 90px;
+    top: 130px;
 }
 .searchbox{
     width: 500px;
     height: 45px;
     position:absolute ;
     transform: translate(-20%,-50%);
+    z-index: 1;
+    
 }
 .searchbox:hover{
     box-shadow: grey;
@@ -28,11 +30,13 @@ input[type="text"]{
     width: 100%;
     height:100%;
     border: 1px solid gainsboro;
-    top: 140px;
+    top: 160px;
     border-radius: 50px;
     padding: 0 40px 0 40px;
     outline: none;
     box-shadow: 0 5px 10px -7px #000;
+    background-color: blueviolet;
+
 }
 #mic{
     width: 15px;
@@ -43,11 +47,19 @@ input[type="text"]{
     top: -40px;
     left: 350px;
 }
+#search{
+    width: 18px;
+    height: 18px;
+    margin-bottom: 220px;
+    z-index: 2.5;
+}
 .button{
     position: relative;
-    top: 480px;
+    top: 400px;
     text-align:center ;
-    margin-right: 10px;
+    margin-right: 20px;
+    background-color: blue;
+
 }
 input[type="button"]{
     background: rgb(236, 231, 231);
@@ -120,10 +132,10 @@ input[type="button"]:hover{
 
 #nav2{
     font-size: 16px;
-    line-height: 40px;
-    position: absolute;
+   /* position: absolute;*/
     bottom: 0;
     width: 100%;
+    background-color: purple;
 }
 
 #nav2 a {
@@ -138,16 +150,24 @@ input[type="button"]:hover{
 .navb{
     float: left;
    margin-top: 500px;
+   background-color: red;
 }
 
 .navb a {
     padding-left: 10px;
 }
-#navc{
+.navc{
     float: right;
     margin-top: 500px;
-    margin-left: 30px; 
+   /* margin-left: 65px;*/ 
     justify-content: space-between;
+     margin-right: -150px; 
+
+}
+.navc a{
+   /* margin-right: -50px;*/ 
+    background-color: aqua; 
+    padding-right: 23px;
 }
 
 
