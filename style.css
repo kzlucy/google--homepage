@@ -35,16 +35,15 @@ input[type="text"]{
     padding: 0 40px 0 40px;
     outline: none;
     box-shadow: 0 5px 10px -7px #000;
-    background-color: blueviolet;
 
 }
 #mic{
     width: 15px;
     height: 15px;
     margin: 200px;
-    margin-right: 60px;
+    margin-right: 80px;
     position: relative;
-    top: -40px;
+    top: -30px;
     left: 350px;
 }
 #search{
@@ -58,7 +57,6 @@ input[type="text"]{
     top: 400px;
     text-align:center ;
     margin-right: 20px;
-    background-color: blue;
 
 }
 input[type="button"]{
@@ -132,10 +130,9 @@ input[type="button"]:hover{
 
 #nav2{
     font-size: 16px;
-   /* position: absolute;*/
     bottom: 0;
     width: 100%;
-    background-color: purple;
+    background-color: aqua;
 }
 
 #nav2 a {
@@ -150,7 +147,6 @@ input[type="button"]:hover{
 .navb{
     float: left;
    margin-top: 500px;
-   background-color: red;
 }
 
 .navb a {
@@ -159,15 +155,13 @@ input[type="button"]:hover{
 .navc{
     float: right;
     margin-top: 500px;
-   /* margin-left: 65px;*/ 
     justify-content: space-between;
      margin-right: -150px; 
 
 }
 .navc a{
-   /* margin-right: -50px;*/ 
-    background-color: aqua; 
-    padding-right: 23px;
+    margin-right: 20px;
+   
 }
 
 
